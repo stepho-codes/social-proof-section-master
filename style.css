@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	color:  hsl(300, 43%, 22%);
+	font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+.mainContainer {
+	margin-left: 7%;
+}
+
+.topContainer {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	padding: 2%;	
+}
+
+.paragraphTop {
+	line-height: 155%;
+	font-weight: 400;
+}
+
+.rightContainer {
+	margin-left: 15%;
+}
+
+
+.rated {
+	background-color: hsl(300, 24%, 96%);
+	padding: 2%;
+	width: 60%;
+	height: 10%;
+	margin-top: 2%;
+	display: grid;
+	grid-template-columns: auto auto;
+	border-radius: 8px;
+	font-weight: 600;
+}
+
+img .stars {
+	width: 100%;
+	
+
+}
+
+.stars {
+	display:flex;
+	justify-content: space-between;
+	width: 80%;
+	padding-left: 10%;
+}
+
+.review {
+	padding-left: 9%;
+}
+
+.ratedTwo {
+	margin-left: 10%;
+}
+
+.ratedThree {
+	margin-left: 20%;
+}
+
+.testimonialsContainer {
+	display: grid;
+	grid-template-columns: 34% 34% 34%;
+	width: 90%;
+	margin-top: 4%;
+	margin-bottom: 3%;
+}
+
+
+
+.testimonial {
+	background-color:  hsl(300, 43%, 22%);
+	color: #FFFFFF;
+	display: grid;
+	grid-template-columns: 20% 70%;
+	width: 75%;
+	height: 35%;
+	padding: 9%;
+	border-radius: 10px;
+	padding-bottom: 25%;
+}
+
+.testimonialTwo {
+	margin-top: 6%;
+}
+
+.testimonialThree {
+	margin-top: 13%;
+}
+
+.profileImage {
+	width: 70%;
+	border-radius: 50%;
+}
+
+.verfied {
+	color: hsl(333, 80%, 67%);
+}
+
+.reviewBottom {
+	width: 500%;
+	padding-top: 40%;
+	padding-bottom: 90%;
+	line-height: 140%;
+	font-weight: 400;
+}
+
+@media (min-width: 376px) and (max-width: 1440px) { 
+
+	.mainContainerMobile {
+		display:none;
+	}
+}
+
+/*MOBILE*/
+
+@media (min-width: 100px) and (max-width: 375px) { 
+
+	.mainContainer {
+		display:none;
+	}
+	
+}
+
+.mainContainerMobile {
+	margin: 10px;
+	text-align: center;
+}
+
+.statsMobile {
+	padding-top: 20%;
+}
+
+.paragraphTopMobile {
+	line-height: 155%;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+
+.starsMobile {
+	display: flex;
+	justify-content: space-around;
+	padding: 1%;
+	padding-left: 30%;
+}
+
+.ratedMobileReview {
+	display: flex;
+	justify-content: space-around;
+	padding-left: 15%;
+	width: 100%;
+}
+
+.ratedMobileTwo {
+    background-color: hsl(300, 24%, 96%);
+	margin-top: 3%;
+	padding: 3%;
+	width: 95%;
+	display: grid;
+	grid-template-columns: auto auto;
+	border-radius: 8px;
+	font-weight: 600;
+	
+}
+
+.testimonialMobile {
+	background-color:  hsl(300, 43%, 22%);
+	color: #FFFFFF;
+	display: grid;
+	grid-template-columns: 20% 40%;
+	width: 86%;
+	padding: 7%;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.reviewBottomMobile {
+	width: 500%;
+	padding-top: 30%;
+	line-height: 140%;
+	font-weight: 400;
+	text-align: left;
+}
