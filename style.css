@@ -115,7 +115,7 @@ img .stars {
 	font-weight: 400;
 }
 
-@media (min-width: 376px) and (max-width: 1440px) { 
+@media (min-width: 376px) and (max-width: 2040px) { 
 
 	.mainContainerMobile {
 		display:none;
